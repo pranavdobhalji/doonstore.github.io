@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoonStore | online ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    DOONSTORE
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <span id="menuicon" onclick="menutoggle()"> &#9776; </span>
+            </div>
+            <div class="sale"><img src="sale.jpg" alt=""></div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give your look with <br>A new style!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, pariatur magnam <br> libero
+                        possimus
+                        laborum incidunt deleniti aliquid odio,
+                        amet consectetur <br> adipisicing Beat consectetur.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+
+                <div class="col-2">
+                    <img src="italic-XojCzcsjc_w-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--featured Categories-->
+
+    <div class="categories">
+        <div class="smallcontainer">
+            <div class="row">
+                <div class="col-3"><img src="2.jpg" alt=""></div>
+                <div class="col-3"><img src="3.jpg" alt=""></div>
+                <div class="col-3"><img src="4.jpg" alt=""></div>
+            </div>
+        </div>
+
+
+
+        <div class="smallcontainer">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="pro1.jpg" alt="">
+                    <h4>Black Jeans</h4>
+                    <p>Rs.450</p>
+                </div>
+                <div class="col-4">
+                    <img src="pro5.jpg" alt="">
+                    <h4>Denim Blue</h4>
+                    <p>Rs.550</p>
+                </div>
+                <div class="col-4">
+                    <img src="pro2.jpg" alt="">
+                    <h4>Levis Black</h4>
+                    <p>Rs.600</p>
+                </div>
+                <div class="col-4">
+                    <img src="pro3.jpg" alt="">
+                    <h4>Dark BLK</h4>
+                    <p>Rs.850</p>
+                </div>
+            </div>
+
+            <!--Latest products-->
+            <h2 class="title">Latest Products</h2>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="pro1.jpg" alt="">
+                    <h4>Black Jeans</h4>
+                    <p>Rs.450</p>
+                </div>
+                <div class="col-4">
+                    <img src="pro5.jpg" alt="">
+                    <h4>Denim Blue</h4>
+                    <p>Rs.550</p>
+                </div>
+                <div class="col-4">
+                    <img src="pro2.jpg" alt="">
+                    <h4>Levis Black</h4>
+                    <p>Rs.600</p>
+                </div>
+                <div class="col-4">
+                    <img src="pro3.jpg" alt="">
+                    <h4>Dark BLK</h4>
+                    <p>Rs.850</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="fs"><img src="foot.jpg" alt=""></div>
+
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footercol1">
+                    <h3>Download our APP</h3>
+                    <p>Download for ios and android platforms</p>
+                </div>
+                <div class="footercol2">
+                    <h2>DOONSTORE</h2>
+                </div>
+                <div class="footercol3">
+                    <h3>Useful links</h3>
+                    <ul>
+                      <li>Blogs</li>
+                    <li>Coupons</li>
+                    <li>Return Policy</li>
+                    <li>Services</li>
+                    </ul>
+                </div>
+                <div class="footercol4">
+                    <h3>Follow us</h3>
+                    <li>facebook</li>
+                    <li>twitter</li>
+                    <li>instagram</li>
+                    <li>linkedin</li>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright &copy;2020
+            <p>ALL RIGHTS RESERVED</p>
+            <p>Developer: Pranav Dobhal</p>
+        </div>
+    </div>
+    <!--js for menutoggle-->
+
+    <script>
+        let menuitems= document.getElementById("menuitems");
+        menuitems.style.maxHeight="0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px"){
+                 menuitems.style.maxHeight = "200px";
+            }
+            else{
+                 menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
